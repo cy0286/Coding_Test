@@ -40,4 +40,4 @@ for test_case in range(1, T + 1):
 
     for _ in range(N):
         graph.append(list(map(int, input().split())))
-    print("#%d %d" %(test_case, result(graph, N, M)))
+    print(f"#{test_case} {result(graph, N, M)}")
